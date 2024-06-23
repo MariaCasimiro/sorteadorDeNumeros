@@ -6,23 +6,11 @@
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    background: linear-gradient(#9713a6 0%, #320637 33.33%, #320637 66.67%, #320637 100%);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-body::before {
-    background-image: url("img/code.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
 }
 
 .container {
@@ -32,7 +20,7 @@ body::before {
     align-items: center;
     justify-content: space-between;
     border-radius: 24px;
-    border: 1px solid #1875E8;
+    border: 1px solid #971ce9;
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
     background-image: url("img/Ruido.png");
     background-size: 100% 100%;
@@ -58,8 +46,8 @@ body::before {
     flex-direction: column;
 }
 
-.container__texto-azul {
-    color: #1875E8;
+.container__texto-branco {
+    color: #ffffff;
     display: block;
 
 }
@@ -77,7 +65,7 @@ body::before {
     border-radius: 16px;
     background-color: #FFF;
     border: none;
-    color: #1875E8;
+    color: #971ce9;
     padding: 2rem;
     font-size: 24px;
     font-weight: 700;
@@ -92,7 +80,7 @@ body::before {
 
 .container__botao {
     border-radius: 16px;
-    background: #1875E8;
+    background: #971ce9;
     padding: 16px 24px;
     font-size: 24px;
     width: 100%;
@@ -103,7 +91,7 @@ body::before {
 
 .container__botao-desabilitado {
     border-radius: 16px;
-    background: #6f6f70;
+    background: #5e5e5e;
     padding: 16px 24px;
     font-size: 24px;
     width: 100%;
